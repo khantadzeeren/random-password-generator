@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.general{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #08070B;
+
+}
+.gen{
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #817D92;
+}
+.password{
+  margin-top:16px ;
+  height: 64px;
+  padding-left: 16px;
+width: 343px;
+background: #24232C;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+h2{
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #E6E5EA;
+
+}
+.cop{
+  margin-right: 15.5px;
+}
+.main{
+  height: 423px;
+width: 343px;
+background: #24232C;
+margin-top: 16px;
+padding-right: 32px;
+
+}
+.length{
+  display: flex;
+  width: 311px;
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16px;
+
+}
+h3{
+  height: 21px;
+width: 154px;
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+color: #E6E5EA;
+margin-top: 21px;
+}
+h4{
+  font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #A4FFAF;
+margin-top: 16px;
+}
+.slider{
+  width: 100%;
+  display: flex;
+  height: 28px;
+  margin-top: 13px;
+  align-items: center;
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+
+}
+.green{
+  
+  width: 50%;
+ 
+  position: absolute;
+  background: #A4FFAF;
+  height: 8px;
+ 
+
+  
+ 
+
+
+}
+.oval{
+z-index: 2;
+margin-right:150px ;
+}
+.x1{
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 16px;
+}
+.x2{
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  margin-left: 16px;
+}
+.x3{
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+.x4{
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.same{
+  background-color: #A4FFAF;
+  height: 20px;
+width: 20px;
+border: 2px solid #E6E5EA;
+
+
+}
+h5{
+  margin-left: 20px;
+  font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #E6E5EA;
+}
+.strength{
+  height: 56px;
+width: 311px;
+background: #18171F;
+margin-top: 32px;
+margin-left: 16px;
+display: flex;
+align-items: center;
+}
+.str{
+  font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+color: #817D92;
+margin-left: 16px;
+}
+.difficulty{
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E6E5EA;
+  margin-left: 57px;
+  
+}
+.boxes{
+  height: 28px;
+width: 10px;
+border: 2px solid #E6E5EA;
+
+
+}
+.b1{
+  margin-left: 16px;
+}
+.b2{
+  margin-left: 8px;
+}
+.b4{
+  margin-left: 8px;
+}.b3{
+  margin-left: 8px;
+}
+.btn1{
+  height: 56px;
+width: 311px;
+background: #A4FFAF;
+margin-top: 16px;
+margin-left: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+
+}
+.generate{
+  font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #24232C;
+
+}
+.arrow{
+  margin-left: 16px;
+}
+.slide{
+  width: 100%;
+
+  -webkit-appearance: none;
+  background: #18171F;
+  height: 8px;
+ 
+  background-repeat: no-repeat;
+}
+
+  
+
+input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 28px;
+  height: 28px;
+  background-color: #E6E5EA;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.result{
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #E6E5EA;
+  width: 280px;
+  background-color:#24232C ;
+  border: none;
+  
+  
+}
+.foo{
+  font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #E6E5EA;
+}
